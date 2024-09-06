@@ -21,4 +21,15 @@ body {
     height: 150px;
     width: 160px;
     border: 1px solid red;
+overflow: hidden;
+}
+
+.pipe {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 210px;
+    object-fit: cover;
+
+
 }
