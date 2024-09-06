@@ -6,12 +6,19 @@ body {
 .game-board {
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(3);
+    grid-template-columns: repeat(4, 160px);
     gap: 10px;
     top: 50%;
     left:  50%;
-    width: 540px;
-    height: 540px;
+    width: 671px;
+    height: 639px;
     transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+
+.box {
+    position: relative;
+    height: 150px;
+    width: 160px;
     border: 1px solid red;
 }
