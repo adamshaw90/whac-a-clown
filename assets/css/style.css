@@ -13,15 +13,17 @@ body {
     width: 671px;
     height: 639px;
     transform: translate(-50%, -50%);
-    border: 1px solid red;
+    border: 3px solid black;
+    
 }
 
 .box {
     position: relative;
     height: 150px;
     width: 160px;
-    border: 1px solid red;
-overflow: hidden;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #191919;
 }
 
 .pipe {

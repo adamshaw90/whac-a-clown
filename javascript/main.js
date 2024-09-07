@@ -8,6 +8,6 @@ for (let i = 1; i <= 16; i++)
     
     let pipe = document.createElement("img")
     pipe.classList.add("pipe")
-    pipe.src = "assets/images/drain.png"
+    pipe.src = "assets/images/red-wave.png"
     box.appendChild(pipe);
 }
