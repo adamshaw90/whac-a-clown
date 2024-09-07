@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background: #242526;
-    color: red;
+    overflow: hidden;
 }
 
 .game-board {
@@ -45,3 +45,18 @@ body {
     pointer-events: all;
     z-index: -1;
 }
+
+.scoretable {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: red;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transform: translate(-5%, -5%);
+    border: 2px solid red;
+}
+
