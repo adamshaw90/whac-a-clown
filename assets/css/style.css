@@ -61,6 +61,7 @@ body {
 }
 
 .modal {
+    color: red;
     cursor: default;
     position: absolute;
     width: 100vw;
@@ -90,3 +91,35 @@ body {
     color: red;
 }
 
+.modal h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.modal h2 {
+    visibility: hidden;
+}
+
+.highscore {
+    margin-left: 10px;
+    animation: scorebump 0.5s infinate alternate;
+}
+
+.display {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes scorebump {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}

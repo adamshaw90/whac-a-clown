@@ -1,4 +1,11 @@
 const gameboarddiv = document.querySelector(".game-board")
+const score = document.querySelector(".score");
+const time = document.querySelector(".time");
+const startbutton = document.querySelector("'.modal button");
+const modal = document.querySelector(".modal");
+const highscore = document.querySelector(".highscore");
+const gameover = document.querySelector(".display h2");
+
 
 for (let i = 1; i <= 16; i++) 
     {
