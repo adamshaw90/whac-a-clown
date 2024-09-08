@@ -115,6 +115,11 @@ body {
     align-items: center;
 }
 
+.modalclose {
+    opacity: 0;
+    pointer-events: none;
+}
+
 @keyframes scorebump {
     from {
         transform: translateY(10px);

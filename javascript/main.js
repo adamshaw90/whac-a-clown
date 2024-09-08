@@ -1,11 +1,15 @@
 const gameboarddiv = document.querySelector(".game-board")
 const score = document.querySelector(".score");
 const time = document.querySelector(".time");
-const startbutton = document.querySelector("'.modal button");
+const startbutton = document.querySelector(".modal button");
 const modal = document.querySelector(".modal");
 const highscore = document.querySelector(".highscore");
 const gameover = document.querySelector(".display h2");
+const hammer = document.querySelector(".hammer")
 
+let timeleft;
+let pscore = 0;
+let maxscore = 0;
 
 for (let i = 1; i <= 16; i++) 
     {
@@ -24,3 +28,7 @@ for (let i = 1; i <= 16; i++)
     clown.setAttribute("name", "clown");
     box.appendChild(clown);
 }
+
+startbutton.addEventListener("click",()=>{
+    modal.classList.add("modalclose");
+});
