@@ -38,7 +38,25 @@ startbutton.addEventListener("click",()=>{
 
     let timer = setInterval(() => {
         time.textContent = timeleft;
-        timeleft --;
+
+        if (timeleft === 0) {
+            clearInterval(timer);
+        }
+
+        else {timeleft --;
         time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
+        const face = document.querySelectorAll(".clown")
+
+        let chooseface = Math.floor(Math.random()*face.length);
+        face[chooseface].style.pointerEvents = "all"
+        face[chooseface].style.animation = "faceup 2s ease"
+        face[chooseface].addEventListener("animationend", () => {
+            face[chooseface].style.pointerEvents = "all"
+            face[chooseface].style.animation = "facedown 0.5s ease"
+            face[chooseface].addEventListener ("animationend", () => {
+                face[chooseface].style.pointerEvents = "none";
+            });
+    })
+}
     }, 1000);
 });
