@@ -31,4 +31,14 @@ for (let i = 1; i <= 16; i++)
 
 startbutton.addEventListener("click",()=>{
     modal.classList.add("modalclose");
+    timeleft = 60
+    pscore = 0
+    score.textContent = pscore
+    time.textContent = timeleft
+
+    let timer = setInterval(() => {
+        time.textContent = timeleft;
+        timeleft --;
+        time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
+    }, 1000);
 });
