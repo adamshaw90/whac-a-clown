@@ -139,3 +139,12 @@ body {
         transform: translateY(-180px);
     }
 }
+
+@keyframes facedown {
+    from {
+        transform: translateY(-180px);
+    }
+    to {
+        transform: translateY(140px);
+    }
+}
