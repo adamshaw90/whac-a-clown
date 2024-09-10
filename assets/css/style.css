@@ -104,7 +104,7 @@ body {
 
 .highscore {
     margin-left: 10px;
-    animation: scorebump 0.5s infinate alternate;
+    animation: scorebump 0.5s infinite alternate;
 }
 
 .display {
