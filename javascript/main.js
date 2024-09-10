@@ -51,6 +51,18 @@ startbutton.addEventListener("click",()=>{
         time.textContent = timeleft;
 
         if (timeleft === 0) {
+            gameover.style.visibility = "visible"
+            modal.classList.remove("modalclose")
+
+            if (pscore > maxscore) {
+                maxscore = pscore
+                highscore.textContent = maxscore;
+            }
+
+            else {
+                highscore.textContent = maxscore;
+            }
+
             clearInterval(timer);
         }
 
