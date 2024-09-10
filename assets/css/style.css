@@ -136,6 +136,6 @@ body {
         transform: translateY(140px);
     }
     to {
-        transform: translateY(-130px);
+        transform: translateY(-180px);
     }
 }
