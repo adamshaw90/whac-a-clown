@@ -43,7 +43,7 @@ startbutton.addEventListener("click",()=>{
             clearInterval(timer);
         }
 
-        else {timeleft --;
+        else {timeleft--;
         time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
         const face = document.querySelectorAll(".clown")
 
