@@ -26,6 +26,7 @@ body {
     border: 1px solid black;
     overflow: hidden;
     background-color: #191919;
+    pointer-events: none;
 }
 
 
@@ -36,6 +37,7 @@ body {
     width: 210px;
     object-fit: cover;
     z-index: 1;
+    pointer-events: none;
 }
 
 .clown {
@@ -44,8 +46,8 @@ body {
     left: 0;
     width: 155px;
     object-fit: contain;
-    pointer-events: all;
     z-index: 0;
+    cursor: pointer;
 }
 
 .scoretable {
