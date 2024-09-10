@@ -124,6 +124,11 @@ body {
     pointer-events: none;
 }
 
+.flash
+{
+    background-color: rgb(62, 56, 56);
+}
+
 @keyframes scorebump {
     from {
         transform: translateY(10px);
