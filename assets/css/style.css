@@ -8,6 +8,7 @@ body {
 .instructions {
     color: white;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .instructions a {
@@ -134,9 +135,14 @@ body {
     visibility: hidden;
 }
 
+.hs {
+    font-size: 1.5rem;
+}
+
 .highscore {
     margin-left: 10px;
     animation: scorebump 0.5s infinite alternate;
+
 }
 
 .display {
@@ -145,6 +151,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .modalclose {
