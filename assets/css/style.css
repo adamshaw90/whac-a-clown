@@ -5,6 +5,21 @@ body {
     overflow: hidden;
 }
 
+.instructions {
+    color: white;
+    text-align: center;
+}
+
+.instructions a {
+    color: red;
+}
+
+.points {
+    text-align: center;
+    color: white;
+    border: 3px solid red;
+}
+
 .game-board {
     position: absolute;
     display: grid;
@@ -56,12 +71,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: red;
+    color: white;
     position: absolute;
     left: 5%;
     top: 5%;
     transform: translate(-5%, -5%);
-    border: 2px solid red;
+    border: 5px solid red;
 }
 
 .modal {
@@ -82,7 +97,7 @@ body {
 .modal button {
     padding: 1rem 2rem;
     background: none;
-    border: 1px solid red;
+    border: 3px solid red;
     color: red;
     font-size: 1.2rem;
     cursor: pointer;
@@ -101,6 +116,7 @@ body {
     justify-content: space-between;
     padding: 0.5rem;
 }
+
 
 .modal h2 {
     visibility: hidden;
@@ -124,8 +140,7 @@ body {
     pointer-events: none;
 }
 
-.flash
-{
+.flash {
     background-color: rgb(62, 56, 56);
 }
 
