@@ -5,6 +5,22 @@ body {
     overflow: hidden;
 }
 
+.paperboat {
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    top: 550px;
+    right: 1300px;
+}
+
+.balloon {
+    height: 250px;
+    width: 250px;
+    position: fixed;
+    bottom: 550px;
+    left: 1300px;
+}
+
 .instructions {
     color: white;
     text-align: center;
