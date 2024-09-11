@@ -5,7 +5,7 @@ const startbutton = document.querySelector(".modal button");
 const modal = document.querySelector(".modal");
 const highscore = document.querySelector(".highscore");
 const gameover = document.querySelector(".display h2");
-const hammer = document.querySelector(".hammer")
+
 
 let timeleft;
 let pscore = 0;

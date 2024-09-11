@@ -31,6 +31,12 @@ body {
     height: 639px;
     transform: translate(-50%, -50%);
     border: 3px solid black;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     
 }
 
@@ -63,6 +69,12 @@ body {
     object-fit: contain;
     z-index: 0;
     cursor: pointer;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .scoretable {
