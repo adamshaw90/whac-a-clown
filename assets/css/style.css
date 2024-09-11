@@ -128,7 +128,7 @@ body {
     align-items: center;
     background: #191919;
     pointer-events: all;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .modal button {
@@ -181,6 +181,22 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+
+.modal2 {
+    justify-content: center;
+    display: none;
+    background: black;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+
+.modal2.reveal {
+    display: block;
+}
+
 
 .flash {
     background-color: rgb(62, 56, 56);

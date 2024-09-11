@@ -1,10 +1,13 @@
-const gameboarddiv = document.querySelector(".game-board")
+const gameboarddiv = document.querySelector(".game-board");
 const score = document.querySelector(".score");
 const time = document.querySelector(".time");
-const startbutton = document.querySelector(".modal button");
+const startbutton = document.querySelector(".startbutton");
 const modal = document.querySelector(".modal");
 const highscore = document.querySelector(".highscore");
-const gameover = document.querySelector(".display h2");
+const lastscore = document.querySelector(".lastscore");
+const modal2 = document.querySelector(".modal2");
+const playagain = document.querySelector(".playagain");
+const home = document.querySelector(".home");
 
 
 let timeleft;
@@ -42,7 +45,7 @@ window.addEventListener("click", (e) => {
 
 startbutton.addEventListener("click",()=>{
     modal.classList.add("modalclose");
-    timeleft = 60
+    timeleft = 10
     pscore = 0
     score.textContent = pscore
     time.textContent = timeleft
@@ -51,8 +54,8 @@ startbutton.addEventListener("click",()=>{
         time.textContent = timeleft;
 
         if (timeleft === 0) {
-            gameover.style.visibility = "visible"
-            modal.classList.remove("modalclose")
+            modal2.classList.add("reveal")
+            lastscore.textContent = pscore;
 
             if (pscore > maxscore) {
                 maxscore = pscore
@@ -82,4 +85,53 @@ startbutton.addEventListener("click",()=>{
     })
 }
     }, 1000);
+});
+
+playagain.addEventListener("click",()=>{
+    modal2.classList.remove("reveal");
+    timeleft = 10
+    pscore = 0
+    score.textContent = pscore
+    time.textContent = timeleft
+
+    let timer = setInterval(() => {
+        time.textContent = timeleft;
+
+        if (timeleft === 0) {
+            modal2.classList.add("reveal")
+            lastscore.textContent = pscore;
+
+            if (pscore > maxscore) {
+                maxscore = pscore
+                highscore.textContent = maxscore;
+            }
+
+            else {
+                highscore.textContent = maxscore;
+            }
+
+            clearInterval(timer);
+        }
+
+        else {timeleft--;
+        time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
+        const face = document.querySelectorAll(".clown")
+
+        let chooseface = Math.floor(Math.random()*face.length);
+        face[chooseface].style.pointerEvents = "all"
+        face[chooseface].style.animation = "faceup 2s ease"
+        face[chooseface].addEventListener("animationend", () => {
+            face[chooseface].style.pointerEvents = "all"
+            face[chooseface].style.animation = "facedown 0.5s ease"
+            face[chooseface].addEventListener ("animationend", () => {
+                face[chooseface].style.pointerEvents = "none";
+            });
+    })
+}
+    }, 1000);
+});
+
+home.addEventListener("click",()=>{
+    modal.classList.remove("modalclose");
+    modal2.classList.remove("reveal");
 });
