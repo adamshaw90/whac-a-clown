@@ -1,4 +1,4 @@
-# KIWI KAMPERS
+# Whac-A-Clown
 
 ![Device-view](documentation/)
 
@@ -162,15 +162,15 @@ Colour palette:
 
 Start page:
 
-![start-wire](documentation/homewire.PNG)
+![start-wire](documentation/startwire.PNG)
 
 Game page:
 
-![game-wire](documentation/aboutwire.PNG)
+![game-wire](documentation/gamewire.PNG)
 
 Gameover page:
 
-![gameover-page](documentation/hirewire.PNG)
+![gameover-page](documentation/overwire.PNG)
 
 
 # Deployment
@@ -204,105 +204,24 @@ Please go to [testing.md](testing.md) to see the test procedures and results.
 
 ### Images
 
-All images are royalty free and were taken from allowed sources. Images are downloaded and added to the assets file to ensure no broken links arise.
+All images are royalty free and/or created by myself and were taken from allowed sources. Images are downloaded and added to the assets file to ensure no broken links arise.
 
-Hero image:
-
-- https://pixabay.com/photos/road-highway-trees-forest-5638011/
-
-About page images:
-
-- https://pixabay.com/photos/camping-motorhome-traveling-camper-5099382/
-
-- https://pixabay.com/photos/nature-fog-landscape-sky-mountain-2466927/
-
-- https://pixabay.com/photos/skydiving-paraglider-parachute-4896892/
-
-Hire page images:
-
-- https://pixabay.com/photos/couple-van-field-camper-sunset-6705684/
-
-- https://www.pexels.com/photo/a-couple-lying-together-in-a-bed-inside-a-motorhome-7476234/
-
-- https://www.rawpixel.com/image/6111384/photo-image-public-domain-beach-free
-
-Gallery images:
-
-- https://www.pexels.com/photo/two-brown-lama-3396657/
-
-- https://unsplash.com/photos/concrete-road-surrounded-by-trees-ah3_UdEGLcI
-
-- https://www.pexels.com/photo/brown-and-orange-house-with-outdoor-plants-2259917/
-
-- https://unsplash.com/photos/person-on-beige-bridge-at-mountain-valley-0FXa9sTV6Kw
-
-- https://unsplash.com/photos/person-on-beige-bridge-at-mountain-valley-0FXa9sTV6Kw
-
-- https://www.pexels.com/photo/vehicles-parked-on-field-587976/
-
-- https://www.pexels.com/photo/photo-of-person-riding-kayak-3413678/
-
-- https://www.pexels.com/photo/white-car-traveling-near-trees-during-daytime-24698/
-
-- https://www.pexels.com/photo/camper-van-near-a-lake-4499511/
-
-- https://www.pexels.com/photo/people-riding-on-inflatable-boat-1732278/
-
-- https://www.pexels.com/photo/couple-riding-parachute-together-739657/
-
-- https://www.pexels.com/photo/body-of-water-near-city-buildings-421927/
-
-- https://www.pexels.com/search/van%20life/
-
-- https://www.pexels.com/photo/photo-of-falls-during-daytime-3686883/
-
-- https://unsplash.com/photos/a-hot-air-balloon-flying-over-a-field-of-tall-grass-Ur3YO_FD_ug
-
-- https://www.pexels.com/photo/brown-wooden-dock-on-seashore-2226900/
-
-- https://www.pexels.com/photo/red-maori-totem-pole-against-blue-sky-6492113/
-
-- https://www.pexels.com/photo/white-furred-animals-on-green-grass-field-710263/
-
-- https://www.pexels.com/photo/sky-tower-in-auckland-831910/
-
-- https://www.pexels.com/photo/brown-and-white-mountain-633198/
+- Start page images created using Canva.
+- Game page images and elements created using Canva.
 
 
 ### Code
 
-Some code copied and pasted as a guide and highly edited to suit the site theme.
+Code is a combination of my own code and help/guide videos:
 
-Navbar and hamburger menu:
-
-- https://getbootstrap.com/docs/4.0/components/navbar/
-
-Home page layout:
-
-- https://getbootstrap.com/docs/4.0/examples/jumbotron/
-
-About page layout:
-
-- https://getbootstrap.com/docs/4.0/examples/carousel/
-
-Hire page layout:
-
-- https://getbootstrap.com/docs/4.0/examples/carousel/
-
-Gallery layout:
-
-- https://bootsnipp.com/snippets/aMGnk
-
-Contact page:
-
-- https://bootsnipp.com/snippets/bx5W6
+- https://www.youtube.com/watch?v=UnrtgpQlAz4
+- https://www.youtube.com/watch?v=ej8SatOj3V4
 
 # Tools and Technologies
 
 - [canva](https://www.canva.com/) to create custom 404 page image.
 - [HTML](https://en.wikipedia.org/wiki/HTML) was used to write the website code.
 - [CSS](https://en.wikipedia.org/wiki/CSS) was used to style the website.
-- [Bootstrap](https://getbootstrap.com/) was used for the site layout.
 - [Gitpod](https://gitpod.io/) as online IDE.
 - [Github](https://github.com) and Github Pages to deploy and host the website.
 - [FontAwesome](https://fontawesome.com/) for website icons and the favicon.
@@ -310,8 +229,6 @@ Contact page:
 - [Google](https://www.google.co.uk/) as a search engine for all queries.
 - [GoogleChrome](https://www.google.com/intl/en_uk/chrome/?brand=QCTP&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhc2pz-_bvU7f850ozLnJ1cfu6Y8tIfP4BXfL7naeQKo15Tjzwkt3U5hoClfYQAvD_BwE&gclsrc=aw.ds) to test and view website.
 - [GoogleDevTools](https://developer.chrome.com/docs/devtools) to identify bugs and general website tailoring.
-- [TinyPNG](https://tinypng.com/) to convert images from png to webp.
-- [MicrosoftPaint](https://www.microsoft.com/en-gb/windows/paint) to resize images.
 - [coolors](https://coolors.co/) to create the colour palette.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes.
 - [ResponsiveViewer](https://responsiveviewer.org/) to create multiple device image.

@@ -1,9 +1,17 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background: #242526;
     overflow: hidden;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-content {
+    display: flex;
+    width: 100%;
 }
 
 .paperboat {
@@ -26,8 +34,8 @@ body {
     height: 500px;
     width: 300px;
     position: fixed;
-    top: 300px;
-    left: 1200px;
+    bottom: -120px;
+    right: 50px;
 }
 
 .instructions {
@@ -47,29 +55,31 @@ body {
 }
 
 .game-board {
-    position: absolute;
     display: grid;
-    grid-template-columns: repeat(4, 160px);
-    gap: 10px;
-    top: 50%;
-    left:  50%;
-    width: 671px;
-    height: 639px;
-    transform: translate(-50%, -50%);
-
+    grid-template-columns: repeat(4, 25%);
+    width: calc(100%);
+    max-width: 671px;
+    /* gap: 10px; */
+    /* top: 50%; */
+    /* left:  50%; */
+    /* width: 671px; */
+    /* height: 639px; */
+    /* transform: translate(-50%, -50%); */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    
 }
 
 .box {
+    /* border: 5px solid #000; */
     position: relative;
-    height: 150px;
-    width: 160px;
-    border: 1px solid black;
+    /* height: 160px; */
+    width: 100%;
+    padding-bottom: calc(100% - 10px);
+    border: 5px solid #242526;
+    box-sizing: border-box;
     overflow: hidden;
     background-color: #191919;
     pointer-events: none;
@@ -78,9 +88,9 @@ body {
 
 .pipe {
     position: absolute;
-    bottom: -20px;
-    left: -20px;
-    width: 210px;
+    /* bottom: -20px; */
+    /* left: -20px; */
+    width: 100%;
     object-fit: cover;
     z-index: 1;
     pointer-events: none;
@@ -90,11 +100,10 @@ body {
     position: absolute;
     top: 155px;
     left: 0;
-    width: 155px;
+    width: 100%;
     object-fit: contain;
     z-index: 0;
     cursor: pointer;
-
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -109,7 +118,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    position: absolute;
     left: 5%;
     top: 5%;
     transform: translate(-5%, -5%);
@@ -122,6 +130,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -186,48 +195,13 @@ body {
     justify-content: center;
     display: none;
     background: black;
+    top: 0;
     z-index: 1000;
     height: 100%;
     width: 100%;
     position: absolute;
     color: white;
 }
-
-.modal2 h2 {
-    color: red;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 180px;
-    font-size: 5rem;
-}
-
-.modal2 p {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    font-size: 2rem;
-}
-
-.modal2 button {
-    justify-content: center;
-    padding: 1rem 2rem;
-    background: none;
-    border: 3px solid red;
-    color: red;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.5s ease;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.modal2 button:hover {
-    background: white;
-    color: red;
-}
-
-
 
 .modal2.reveal {
     display: block;
@@ -263,4 +237,16 @@ body {
     to {
         transform: translateY(140px);
     }
+}
+
+@media screen and (max-width: 768px) {
+
+        .game-content {
+            flex-direction: column;
+        }
+
+        .scoretable {
+            flex-direction: row;
+        }
+    
 }
