@@ -14,41 +14,24 @@
 
 ### HTML
 
-### Home page:
+### Start page:
 
 - No errors or warnings to show.
 
-![HomepageVal](documentation/Indexval.PNG)
+![StartpageVal](documentation/)
 
-### About page:
-
-- No errors or warnings to show.
-
-![AboutpageVal](documentation/aboutval.PNG)
-
-### Hire page:
+### Game page:
 
 - No errors or warnings to show.
 
-![HirepageVal](documentation/hireval.PNG)
+![GamepageVal](documentation/)
 
-### Gallery page:
-
-- No errors or warnings to show.
-
-![GallerypageVal](documentation/galleryval.PNG)
-
-### Contact page:
+### Game over page:
 
 - No errors or warnings to show.
 
-![ContactpageVal](documentation/contactval.PNG)
+![OverpageVal](documentation/)
 
-### Submit page:
-
-- No errors or warnings to show.
-
-![SubmitpageVal](documentation/submitval.PNG)
 
 ### 404 page:
 
@@ -58,7 +41,7 @@
 
 ### CSS
 
-![CSSval](documentation/cssval.PNG)
+![CSSval](documentation/)
 
 # Site Responsiveness
 
@@ -66,23 +49,20 @@ The website has been tested on multiple devices to ensure responsiveness remains
 
 ### Desktop
 
-![Desktop](documentation/desktop.PNG)
+![Desktop](documentation/)
 
 ### Iphone 14
 
-![Iphone14](documentation/iphone14.PNG)
+![Iphone14](documentation/)
 
 ### Ipad
 
-![Ipad](documentation/ipad.PNG)
+![Ipad](documentation/)
 
-### Kindle Fire
-
-![Kindle](documentation/kindle.PNG)
 
 ### Samsung S20
 
-![Samsungs20](documentation/samsungs20.PNG)
+![Samsungs20](documentation/)
 
 
 # Manual Testing
@@ -93,25 +73,13 @@ Testing also carried out by multiple people in addition to myself.
 
 | ELEMENT | PROCESS | EXPECTED RESULT | OUTCOME |
 | ------- | ------- | --------------- | ------- |
-| Logo and website name | Click | Return to homepage | Successful |
-| Navbar 'Home' button | Click | Return to homepage | Successful |
-| Navbar 'About' button | Click | Navigate to About page | Successful |
-| Navbar 'Hire' button | Click | Navigate to Hire page | Successful |
-| Navbar 'Gallery' button | Click | Navigate to Gallery page | Successful |
-| Navbar 'Contact' button | Click | Navigate to Contact page | Successful |
-| Navbar buttons | Hover | Colours invert | Successful |
-| Navbar buttons | Click | Current page underlined | Successful |
-| 3 homepage link buttons | Hover | Colour fades | Successful |
-| 3 homepage link buttons | Click | Navigate to corresponding page | Successful |
-| Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
-| Hire page hyperlinks | Click | Navigate to corresponding page in new tab | Successful |
-| Gallery images | Click | Open full image in new tab | Successful |
-| Contact page map | Click and scroll | Move map / zoom  | Successful |
-| Contact form | Enter text | No submit allowed unless name, correctly formatted email address and message are inputted | Successful |
-| Contact form submit button | Click | Navigate to submit successful page | Successful |
+| Start game button | Click | Navigate to game page | Successful |
+| 'I'm Scared' button | Click | Return to homepage | Successful |
+| Clown face pop up | Click | Add 1 to score | Successful |
+| Timer | Timer | 60 seconds decreasing by 1 second | Successful |
+| 'Play Again' button | Click | Navigate to game page | Successful |
+| 'Go Home' button | Click | Navigate to start page | Successful |
 | Broken link | Enter | Navigate to 404 page | Successful |
-| Hamburger button | Click | Nav links dropdown | Successful |
-
 
 
 # Browser Compatibility
@@ -122,19 +90,19 @@ This website has been tested across multiple browsers to ensure it can be transi
 
 - No issues.
 
-![Chromebrowsertest](documentation/chromeval.PNG)
+![Chromebrowsertest](documentation/)
 
 ### Mozilla Firefox:
 
 - No issues.
 
-![Firefoxbrowsertest](documentation/firefoxval.PNG)
+![Firefoxbrowsertest](documentation/)
 
 ### Microsoft Edge:
 
 - No issues.
 
-![Edgebrowsertest](documentation/edgeval.PNG)
+![Edgebrowsertest](documentation/)
 
 
 
@@ -142,29 +110,17 @@ This website has been tested across multiple browsers to ensure it can be transi
 
 Lighthouse was used to verify that the web pages are performing well and are are well optimized.
 
-### Home page:
+### Start page:
 
-![Homelighthouse](documentation/home-lighthouse.PNG)
+![Startlighthouse](documentation/home-lighthouse.PNG)
 
-### About page:
+### Game page:
 
-![Aboutlighthouse](documentation/about-lighthouse.PNG)
+![Gamelighthouse](documentation/about-lighthouse.PNG)
 
-### Hire page:
+### Game over page:
 
-![Hirelighthouse](documentation/hire-lighthouse.PNG)
-
-### Gallery page:
-
-![Gallerylighthouse](documentation/gallery-lighthouse.PNG)
-
-### Contact page:
-
-![Contactlighthouse](documentation/contact-lighthouse.PNG)
-
-### Submit page:
-
-![Submitlighthouse](documentation/submit-lighthouse.PNG)
+![Overlighthouse](documentation/hire-lighthouse.PNG)
 
 ### 404 page:
 
@@ -172,54 +128,29 @@ Lighthouse was used to verify that the web pages are performing well and are are
 
 # Solved Bugs
 
-## Side scroll bar
+## Clown element not appearing
 
-- There was an issue with a side scroll bar being applied to the homepage (see below image).
+- There was an issue with the clown element not appearing on the game board.
 
-![Scrollbug](documentation/scroll%20bug.PNG)
+![Clownbug](documentation/)
 
-- To fix this issue, I had to change the margin-right value in the CSS .row from -15 to 0.
+- To fix this issue, I had to change the z-index as the clown was sat behind the box element.
 
-## Navbar menu items stuck on left
+## Buttons not moving
 
-- The Navbar menu items were displaying on the left of the bar and I wanted them on the right (see below image).
+- The Play Again and Go Home buttons were not moving from the left hand side of the page.
 
-![Navbarwrongside](documentation/navbar%20wrong%20side.PNG)
+![Buttonswrongside](documentation/)
 
-- To fix this issue I had to add another class of .navbar-collapse justify-content : flex-end.
+- To fix this issue I had to *********
 
-## Hero image too big
+## No responsiveness for the game
 
-- I had issues with the hero image being to big on the home page  (see below image).
+- I had issues with the responsiveness at certain sizes.
 
-![Heroimagesize](documentation/hero%20image%20too%20big.PNG)
+![Responsiveissue](documentation/)
 
-- I resized the image using the code shown below.
-
-![Herocode](documentation/herocode.PNG)
-
-## Gallery images not loading
-
-- When navigating to the gallery page, the images were taking a long time to load (see below image).
-
-![Galleryissue](documentation/galleryloading.PNG)
-
-- This loading issue was overcome by resizing the images with paint and then converting the images to the WEBP format.
-
-## Contact page email issue
-
-- The contact page form was allowing the form to be submitted without the correct email format.
-- This was fixed by adding 'required' to the HTML on the email form element.
-
-![Emailfix](documentation/emailfix.PNG)
-
-## Contact form not responsive
-
-- The contact page form was overlapping the map when viewed on a smaller device (see below).
-
-![Contactbug](documentation/contactbug.PNG)
-
-- This was solved by changing the CSS code on the iframe from the fixed width of 500px to 100%.
+- I had to add media queries for mobile and tablet sizes.
 
 # Unsolved Bugs
 

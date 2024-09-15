@@ -46,7 +46,7 @@ window.addEventListener("click", (e) => {
 
 startbutton.addEventListener("click",()=>{
     modal.classList.add("modalclose");
-    timeleft = 1000
+    timeleft = 60
     pscore = 0
     score.textContent = pscore
     time.textContent = timeleft
@@ -90,7 +90,7 @@ startbutton.addEventListener("click",()=>{
 
 playagain.addEventListener("click",()=>{
     modal2.classList.remove("reveal");
-    timeleft = 1000
+    timeleft = 60
     pscore = 0
     score.textContent = pscore
     time.textContent = timeleft
