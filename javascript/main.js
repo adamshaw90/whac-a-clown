@@ -8,6 +8,7 @@ const lastscore = document.querySelector(".lastscore");
 const modal2 = document.querySelector(".modal2");
 const playagain = document.querySelector(".playagain");
 const home = document.querySelector(".home");
+const scared = document.querySelector(".scared");
 
 
 let timeleft;
@@ -134,4 +135,8 @@ playagain.addEventListener("click",()=>{
 home.addEventListener("click",()=>{
     modal.classList.remove("modalclose");
     modal2.classList.remove("reveal");
+});
+
+scared.addEventListener("click",()=>{
+    modal.classList.remove("modalclose");
 });
