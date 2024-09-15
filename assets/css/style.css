@@ -60,9 +60,8 @@ body {
 .game-board {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    /* width: calc(100vh - 121.5px);
-    max-width: 100%; */
     width: 100vh;
+    max-width: 768;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
