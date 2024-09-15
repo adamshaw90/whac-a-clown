@@ -12,6 +12,7 @@ body {
 .game-content {
     display: flex;
     justify-content: center;
+    width: 100%;
     gap: 40px;
     margin:0 40px;
 }
@@ -214,6 +215,7 @@ button:hover {
     width: 100%;
     position: absolute;
     color: whitesmoke;
+    text-align: center;
 }
 
 .modal2.reveal {
@@ -316,6 +318,8 @@ button:hover {
         
     }
 
+    
+
     .scoretable span {
         display: inline;
     }
@@ -333,6 +337,10 @@ button:hover {
 
         .scoretable {
             flex-direction: row;
+        }
+
+        .game-board {
+            width: 100%;
         }
 
         .scoretable span {
