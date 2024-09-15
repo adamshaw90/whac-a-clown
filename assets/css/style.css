@@ -60,7 +60,7 @@ body {
 .game-board {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    width: calc(100%);
+    width: 100vh;
     max-width: 768px;
     /* gap: 10px; */
     /* top: 50%; */
@@ -129,6 +129,8 @@ body {
 .scoretable span {
     display: block;
 }
+
+
 
 .modal {
     color: red;
@@ -211,6 +213,40 @@ body {
 
 .modal2.reveal {
     display: block;
+}
+
+.modal2 h2 {
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    font-size: 5rem;
+}
+
+.modal2 p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+.modal2 button {
+    justify-content: center;
+    padding: 1rem 2rem;
+    background: none;
+    border: 3px solid red;
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal2 button:hover {
+    background: white;
+    color: red;
 }
 
 
