@@ -17,17 +17,17 @@ let maxscore = 0;
 
 for (let i = 1; i <= 16; i++) 
     {
-    let box = document.createElement("div")
-    box.classList.add("box")
+    let box = document.createElement("div");
+    box.classList.add("box");
     gameboarddiv.appendChild(box);
     
-    let pipe = document.createElement("img")
-    pipe.classList.add("pipe")
+    let pipe = document.createElement("img");
+    pipe.classList.add("pipe");
     pipe.src = "assets/images/red-wave.webp";
     box.appendChild(pipe);
 
-    let clown = document.createElement("img")
-    clown.classList.add("clown")
+    let clown = document.createElement("img");
+    clown.classList.add("clown");
     clown.src = "assets/images/clown.webp";
     clown.setAttribute("name", "clown");
     box.appendChild(clown);
@@ -46,20 +46,20 @@ window.addEventListener("click", (e) => {
 
 startbutton.addEventListener("click",()=>{
     modal.classList.add("modalclose");
-    timeleft = 60
-    pscore = 0
-    score.textContent = pscore
-    time.textContent = timeleft
+    timeleft = 60;
+    pscore = 0;
+    score.textContent = pscore;
+    time.textContent = timeleft;
 
     let timer = setInterval(() => {
         time.textContent = timeleft;
 
         if (timeleft === 0) {
-            modal2.classList.add("reveal")
+            modal2.classList.add("reveal");
             lastscore.textContent = pscore;
 
             if (pscore > maxscore) {
-                maxscore = pscore
+                maxscore = pscore;
                 highscore.textContent = maxscore;
             }
 
@@ -72,38 +72,38 @@ startbutton.addEventListener("click",()=>{
 
         else {timeleft--;
         time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
-        const face = document.querySelectorAll(".clown")
+        const face = document.querySelectorAll(".clown");
 
         let chooseface = Math.floor(Math.random()*face.length);
-        face[chooseface].style.pointerEvents = "all"
-        face[chooseface].style.animation = "faceup 2s ease"
+        face[chooseface].style.pointerEvents = "all";
+        face[chooseface].style.animation = "faceup 2s ease";
         face[chooseface].addEventListener("animationend", () => {
-            face[chooseface].style.pointerEvents = "all"
-            face[chooseface].style.animation = "facedown 0.5s ease"
+            face[chooseface].style.pointerEvents = "all";
+            face[chooseface].style.animation = "facedown 0.5s ease";
             face[chooseface].addEventListener ("animationend", () => {
                 face[chooseface].style.pointerEvents = "none";
             });
-    })
+    });
 }
     }, 900);
 });
 
 playagain.addEventListener("click",()=>{
     modal2.classList.remove("reveal");
-    timeleft = 60
-    pscore = 0
-    score.textContent = pscore
-    time.textContent = timeleft
+    timeleft = 60;
+    pscore = 0;
+    score.textContent = pscore;
+    time.textContent = timeleft;
 
     let timer = setInterval(() => {
         time.textContent = timeleft;
 
         if (timeleft === 0) {
-            modal2.classList.add("reveal")
+            modal2.classList.add("reveal");
             lastscore.textContent = pscore;
 
             if (pscore > maxscore) {
-                maxscore = pscore
+                maxscore = pscore;
                 highscore.textContent = maxscore;
             }
 
@@ -116,18 +116,18 @@ playagain.addEventListener("click",()=>{
 
         else {timeleft--;
         time.textContent = timeleft < 10 ? "0" + timeleft : timeleft;
-        const face = document.querySelectorAll(".clown")
+        const face = document.querySelectorAll(".clown");
 
         let chooseface = Math.floor(Math.random()*face.length);
-        face[chooseface].style.pointerEvents = "all"
-        face[chooseface].style.animation = "faceup 2s ease"
+        face[chooseface].style.pointerEvents = "all";
+        face[chooseface].style.animation = "faceup 2s ease";
         face[chooseface].addEventListener("animationend", () => {
-            face[chooseface].style.pointerEvents = "all"
-            face[chooseface].style.animation = "facedown 0.5s ease"
+            face[chooseface].style.pointerEvents = "all";
+            face[chooseface].style.animation = "facedown 0.5s ease";
             face[chooseface].addEventListener ("animationend", () => {
                 face[chooseface].style.pointerEvents = "none";
             });
-    })
+    });
 }
     }, 900);
 });

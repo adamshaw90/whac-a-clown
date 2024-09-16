@@ -26,6 +26,12 @@
 
 ![CSSval](documentation/cssval.png)
 
+### JavaScript
+
+- No errors or warnings to show.
+
+![JSval](documentation/jstest.png)
+
 # Site Responsiveness
 
 The website has been tested on multiple devices to ensure responsiveness remains on whatever device the webisite is loaded to.
