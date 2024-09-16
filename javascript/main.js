@@ -85,7 +85,7 @@ startbutton.addEventListener("click",()=>{
             });
     })
 }
-    }, 1000);
+    }, 900);
 });
 
 playagain.addEventListener("click",()=>{
@@ -129,7 +129,7 @@ playagain.addEventListener("click",()=>{
             });
     })
 }
-    }, 1000);
+    }, 900);
 });
 
 home.addEventListener("click",()=>{
