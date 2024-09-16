@@ -263,12 +263,13 @@ button:hover {
 
 .contain {
     text-align: center;
-    color: whitesmoke;
 }
 
-.contain h2 a {
-    color: red;
+.error-img {
+    width: 24%;
+    padding-top: 40px;
 }
+
 
 
 @keyframes scorebump {
