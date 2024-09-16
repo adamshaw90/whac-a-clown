@@ -261,6 +261,16 @@ button:hover {
     background-color: rgb(62, 56, 56);
 }
 
+.contain {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contain h2 a {
+    color: red;
+}
+
+
 @keyframes scorebump {
     from {
         transform: translateY(10px);
