@@ -302,6 +302,7 @@ button:hover {
         display: none;
     }
 
+
     .scoretable span {
         display: inline;
     }
@@ -314,13 +315,12 @@ button:hover {
     }
 
     .scoretable {
-        flex-direction: row;
-        
+        flex-direction: row; 
     }
 
     .game-board {
         width: calc(100vh - 121.5px);
-max-width: 100%;
+        max-width: 100%;
     }
 
     .scoretable span {
@@ -346,8 +346,6 @@ max-width: 100%;
             display: inline;
         }
 
-    
-
 }
 
 @media screen and (max-width: 480px) {
@@ -357,10 +355,5 @@ max-width: 100%;
         margin: 0 20px;
     }
 
+
 }
-
-@media screen and (max-width: 360px) {
-
-
-
-} 

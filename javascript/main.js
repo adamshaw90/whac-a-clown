@@ -23,12 +23,12 @@ for (let i = 1; i <= 16; i++)
     
     let pipe = document.createElement("img")
     pipe.classList.add("pipe")
-    pipe.src = "assets/images/red-wave.png";
+    pipe.src = "assets/images/red-wave.webp";
     box.appendChild(pipe);
 
     let clown = document.createElement("img")
     clown.classList.add("clown")
-    clown.src = "assets/images/clown.png";
+    clown.src = "assets/images/clown.webp";
     clown.setAttribute("name", "clown");
     box.appendChild(clown);
 }
