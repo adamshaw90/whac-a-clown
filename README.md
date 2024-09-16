@@ -12,7 +12,7 @@
 1. [Testing](#testing)
 1. [References](#references)
 1. [Tools and Technologies](#tools-and-technologies)
-1. [Acknowledgements](#credits)
+1. [Acknowledgements](#Acknowledgements)
 
 ---
 

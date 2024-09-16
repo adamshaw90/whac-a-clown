@@ -22,6 +22,8 @@
 
 ### CSS
 
+- No errors or warnings to show.
+
 ![CSSval](documentation/cssval.png)
 
 # Site Responsiveness
@@ -38,7 +40,7 @@ The website has been tested on multiple devices to ensure responsiveness remains
 
 ### Fire Tablet
 
-![Ipad](documentation/tabview.png)
+![Tablet](documentation/tabview.png)
 
 
 # Manual Testing
