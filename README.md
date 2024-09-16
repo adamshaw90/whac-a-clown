@@ -224,8 +224,6 @@ Code is a combination of my own code and help/guide videos:
 - [CSS](https://en.wikipedia.org/wiki/CSS) was used to style the website.
 - [Gitpod](https://gitpod.io/) as online IDE.
 - [Github](https://github.com) and Github Pages to deploy and host the website.
-- [FontAwesome](https://fontawesome.com/) for website icons and the favicon.
-- [Bootsnipp](https://bootsnipp.com/) to copy code examples.
 - [Google](https://www.google.co.uk/) as a search engine for all queries.
 - [GoogleChrome](https://www.google.com/intl/en_uk/chrome/?brand=QCTP&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhc2pz-_bvU7f850ozLnJ1cfu6Y8tIfP4BXfL7naeQKo15Tjzwkt3U5hoClfYQAvD_BwE&gclsrc=aw.ds) to test and view website.
 - [GoogleDevTools](https://developer.chrome.com/docs/devtools) to identify bugs and general website tailoring.
