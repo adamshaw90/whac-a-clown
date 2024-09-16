@@ -61,7 +61,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     width: 100vh;
-    max-width: 768;
+    max-width: 768px;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
