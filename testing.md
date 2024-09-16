@@ -20,6 +20,12 @@
 
 ![StartpageVal](documentation/htmlval.png)
 
+### 404.html:
+
+- No errors or warnings to show.
+
+![404Val](documentation/404val.png)
+
 ### CSS
 
 - No errors or warnings to show.

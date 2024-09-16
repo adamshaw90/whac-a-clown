@@ -132,7 +132,7 @@ Game Over page preview:
 
 404 page preview:
 
-![404-page-preview](documentation/404.PNG)
+![404-page-preview](documentation/404page.png)
 
 
 # Design
