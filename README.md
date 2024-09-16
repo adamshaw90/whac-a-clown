@@ -1,6 +1,6 @@
 # Whac-A-Clown
 
-![Device-view](documentation/)
+![Device-view](documentation/resview.png)
 
 # Table Of Contents
 
@@ -66,11 +66,11 @@ A starting page that has clear intentions.
 
 Start Page desktop view:
 
-![startpage-web](documentation/)
+![startpage-web](documentation/deskview.png)
 
 Start Page mobile closed view:
 
-![startpage-mobile](documentation/)
+![startpage-mobile](documentation/mobview.png)
 
 
 ### Start Page Interaction
@@ -99,7 +99,7 @@ Themed favicon:
 
 Start Page preview:
 
-![start-page-preview](documentation/)
+![start-page-preview](documentation/deskview.png)
 
 
 ## Game Page
@@ -110,7 +110,7 @@ Start Page preview:
 
 Game Page preview:
 
-![game-page-preview](documentation/)
+![game-page-preview](documentation/gameview.png)
 
 
 ## Game Over Page
@@ -122,7 +122,7 @@ Game Page preview:
 
 Game Over page preview:
 
-![game-over-preview](documentation/)
+![game-over-preview](documentation/overview.png)
 
 
 ## Custom 404
@@ -147,7 +147,7 @@ Game Over page preview:
 
 Colour palette:
 
-![colour-palette](documentation/colour-palette.PNG)
+![colour-palette](documentation/palette.png)
 
 ### Fonts
 
@@ -162,15 +162,15 @@ Colour palette:
 
 Start page:
 
-![start-wire](documentation/startwire.PNG)
+![start-wire](documentation/startwire.png)
 
 Game page:
 
-![game-wire](documentation/gamewire.PNG)
+![game-wire](documentation/gamewire.png)
 
 Gameover page:
 
-![gameover-page](documentation/overwire.PNG)
+![gameover-page](documentation/overwire.png)
 
 
 # Deployment
@@ -231,6 +231,7 @@ Code is a combination of my own code and help/guide videos:
 - [GoogleDevTools](https://developer.chrome.com/docs/devtools) to identify bugs and general website tailoring.
 - [coolors](https://coolors.co/) to create the colour palette.
 - [Balsamiq](https://balsamiq.com/) to create the wireframes.
+- [TinyPNG] (https://tinypng.com/) to convernt images from PNG to WebP.
 - [ResponsiveViewer](https://responsiveviewer.org/) to create multiple device image.
 
 # Acknowledgements

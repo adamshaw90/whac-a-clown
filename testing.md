@@ -14,34 +14,15 @@
 
 ### HTML
 
-### Start page:
+### index.html:
 
 - No errors or warnings to show.
 
-![StartpageVal](documentation/)
-
-### Game page:
-
-- No errors or warnings to show.
-
-![GamepageVal](documentation/)
-
-### Game over page:
-
-- No errors or warnings to show.
-
-![OverpageVal](documentation/)
-
-
-### 404 page:
-
-- No errors or warnings to show.
-
-![404pageVal](documentation/404val.PNG)
+![StartpageVal](documentation/htmlval.png)
 
 ### CSS
 
-![CSSval](documentation/)
+![CSSval](documentation/cssval.png)
 
 # Site Responsiveness
 
@@ -49,20 +30,15 @@ The website has been tested on multiple devices to ensure responsiveness remains
 
 ### Desktop
 
-![Desktop](documentation/)
+![Desktop](documentation/deskview.png)
 
-### Iphone 14
+### Iphone 15
 
-![Iphone14](documentation/)
+![Iphone14](documentation/mobview.png)
 
-### Ipad
+### Fire Tablet
 
-![Ipad](documentation/)
-
-
-### Samsung S20
-
-![Samsungs20](documentation/)
+![Ipad](documentation/tabview.png)
 
 
 # Manual Testing
@@ -90,19 +66,19 @@ This website has been tested across multiple browsers to ensure it can be transi
 
 - No issues.
 
-![Chromebrowsertest](documentation/)
+![Chromebrowsertest](documentation/chromeview.png)
 
 ### Mozilla Firefox:
 
 - No issues.
 
-![Firefoxbrowsertest](documentation/)
+![Firefoxbrowsertest](documentation/fireview.png)
 
 ### Microsoft Edge:
 
 - No issues.
 
-![Edgebrowsertest](documentation/)
+![Edgebrowsertest](documentation/edgeview.png)
 
 
 
@@ -110,21 +86,13 @@ This website has been tested across multiple browsers to ensure it can be transi
 
 Lighthouse was used to verify that the web pages are performing well and are are well optimized.
 
-### Start page:
+### Main page and modals desktop:
 
-![Startlighthouse](documentation/home-lighthouse.PNG)
+![Startlighthouse](documentation/desklighthouse.png)
 
-### Game page:
+### Main page and modals mobile:
 
-![Gamelighthouse](documentation/about-lighthouse.PNG)
-
-### Game over page:
-
-![Overlighthouse](documentation/hire-lighthouse.PNG)
-
-### 404 page:
-
-![404lighthouse](documentation/404-lighthouse.PNG)
+![Gamelighthouse](documentation/moblighthouse.png)
 
 # Solved Bugs
 
@@ -132,7 +100,7 @@ Lighthouse was used to verify that the web pages are performing well and are are
 
 - There was an issue with the clown element not appearing on the game board.
 
-![Clownbug](documentation/)
+![Clownbug](documentation/noclown.png)
 
 - To fix this issue, I had to change the z-index as the clown was sat behind the box element.
 
@@ -140,15 +108,15 @@ Lighthouse was used to verify that the web pages are performing well and are are
 
 - The Play Again and Go Home buttons were not moving from the left hand side of the page.
 
-![Buttonswrongside](documentation/)
+![Buttonswrongside](documentation/buttonissue.png)
 
-- To fix this issue I had to *********
+- To fix this issue I had to add text-align: center; to my modal 2 element. This centered the buttons.
 
 ## No responsiveness for the game
 
 - I had issues with the responsiveness at certain sizes.
 
-![Responsiveissue](documentation/)
+![Responsiveissue](documentation/mediaquery.png)
 
 - I had to add media queries for mobile and tablet sizes.
 
