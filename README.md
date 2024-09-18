@@ -68,7 +68,7 @@ Start Page desktop view:
 
 ![startpage-web](documentation/deskview.png)
 
-Start Page mobile closed view:
+Start Page mobile view:
 
 ![startpage-mobile](documentation/mobview.png)
 
