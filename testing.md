@@ -102,11 +102,11 @@ Lighthouse was used to verify that the web pages are performing well and are are
 
 ### Main page and modals desktop:
 
-![Startlighthouse](documentation/desklighthouse.png)
+![Startlighthouse](documentation/lighthousedesk.png)
 
 ### Main page and modals mobile:
 
-![Gamelighthouse](documentation/moblighthouse.png)
+![Gamelighthouse](documentation/lighthousemob.png)
 
 # Solved Bugs
 

@@ -32,12 +32,14 @@ function createGameBoard() {
         let pipe = document.createElement("img");
         pipe.classList.add("pipe");
         pipe.src = "assets/images/red-wave.webp";
+        pipe.alt = "Water Element";
         box.appendChild(pipe);
 
         let clown = document.createElement("img");
         clown.classList.add("clown");
         clown.src = "assets/images/clown.webp";
         clown.setAttribute("name", "clown");
+        clown.alt = "Clown Image";
         box.appendChild(clown);
     }
 }
@@ -142,6 +144,7 @@ function goHome() {
 // Scared button functionality
 function scaredFunction() {
     modal.classList.remove("modalclose");
+
 }
 
 // Event Listeners
