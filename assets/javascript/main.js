@@ -144,8 +144,8 @@ function goHome() {
 // Scared button functionality
 function scaredFunction() {
     modal.classList.remove("modalclose");
-
-}
+    location.reload();
+  }
 
 // Event Listeners
 window.addEventListener("click", handleClownClick);
