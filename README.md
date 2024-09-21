@@ -83,7 +83,7 @@ Start Page mobile view:
 
 Themed favicon:
 
-![favicon](documentation/)
+![favicon](documentation/faviconinuse.png)
 
 # Site Pages
 
