@@ -79,7 +79,7 @@ Start Page mobile view:
 
 ## Favicon
 
-- Clown favicon icon in site tab to match webiste theme.
+- Red balloon favicon icon in site tab to match webiste theme.
 
 Themed favicon:
 

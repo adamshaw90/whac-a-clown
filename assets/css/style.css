@@ -208,7 +208,7 @@ button:hover {
     pointer-events: none;
 }
 
-/* Game over page */
+/* Game over modal */
 
 .modal2 {
     justify-content: center;
@@ -379,6 +379,5 @@ button:hover {
         gap: 20px;
         margin: 0 20px;
     }
-
 
 }
